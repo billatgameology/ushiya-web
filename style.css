@@ -138,12 +138,24 @@ img {
     background-image: url('photo/hero.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--white);
     margin-top: 80px; /* Offset fixed header */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: 50vh;
+        background-size: 100% auto;
+        background-position: center center;
+        padding: 0;
+        display: block;
+    }
 }
 
 .hero-content h1 {
@@ -445,6 +457,23 @@ img {
 
 .footer-content a:hover {
     color: var(--primary-color);
+}
+
+.footer-content .social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content .social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.footer-content .social-links a:hover {
+    transform: scale(1.1);
 }
 
 .footer-bottom {
