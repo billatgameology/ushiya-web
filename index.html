@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Maple Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="photo/logo.jpg" alt="Ushiya Logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="https://order.online/store/36223387" target="_blank">Order Online</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <h2>Our Story</h2>
+                    <p class="lead">Serving the community with passion and flavor.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="locations" class="section-padding bg-light">
+            <div class="container">
+                <div class="location-wrapper">
+                    <div class="location-info">
+                        <h3>Milpitas</h3>
+                        <p class="address">1792 N Milpitas Blvd<br>Milpitas, CA 95035</p>
+                        <a href="https://www.google.com/maps/search/Ushiya+Grill+1792+N+Milpitas+Blvd,+Milpitas,+CA+95035" target="_blank" class="btn primary-btn">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <h2 class="text-center">Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="photo/gallery/F12A7179 (1).jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7208 (1).jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7232 (1).jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7244 (1).jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7251.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7256.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7265.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7270.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7273.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7282.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7286.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7292.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/F12A7297.jpg" alt="Gallery Image"></div>
+                    <div class="gallery-item"><img src="photo/gallery/Meat intros.jpg" alt="Gallery Image"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact</h3>
+                <p><a href="tel:+16692602988">+1 (669) 260-2988</a></p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ushiya Grill. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
