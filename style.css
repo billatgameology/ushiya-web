@@ -219,6 +219,23 @@ img {
     margin: 0 auto;
 }
 
+.location-info .hours {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: var(--bg-light);
+    border-radius: 8px;
+}
+
+.location-info .hours h4 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.location-info .hours p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
 /* Name Meaning Section */
 .name-content {
     max-width: 800px;
