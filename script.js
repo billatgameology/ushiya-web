@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightboxClose = document.querySelector('.lightbox-close');
     const lightboxPrev = document.querySelector('.lightbox-prev');
     const lightboxNext = document.querySelector('.lightbox-next');
-    const galleryImages = document.querySelectorAll('.gallery-item img');
+    const galleryImages = document.querySelectorAll('.gallery-item img, .menu-item img');
     let currentImageIndex = 0;
 
     function showImage(index) {
