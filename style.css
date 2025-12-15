@@ -226,8 +226,12 @@ img {
     text-align: center;
 }
 
+.name-content h2 {
+    margin-bottom: 40px;
+}
+
 .name-content p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     line-height: 1.8;
     font-size: 1.1rem;
 }
