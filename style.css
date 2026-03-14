@@ -237,6 +237,10 @@ img {
 }
 
 /* Featured Video */
+.featured-video-title {
+    margin-bottom: 20px;
+}
+
 .featured-video-wrapper {
     max-width: 900px;
     margin: 0 auto;
