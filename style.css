@@ -122,17 +122,43 @@ img {
 
 .mobile-menu-toggle {
     display: none;
-    background: none;
-    border: none;
+    background: transparent;
+    border: 1px solid rgba(212, 163, 115, 0.45);
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
     cursor: pointer;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 0.25s ease;
+}
+
+.mobile-menu-toggle:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(212, 163, 115, 0.2);
 }
 
 .mobile-menu-toggle span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-color);
-    margin: 5px 0;
+    width: 20px;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.mobile-menu-toggle.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-menu-toggle.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 /* Hero */
@@ -594,14 +620,17 @@ img {
 /* Responsive */
 @media (max-width: 768px) {
     .main-nav {
-        display: none; /* Hide nav on mobile for now, would need JS to toggle */
-        position: absolute;
+        display: none;
+        position: fixed;
         top: 80px;
         left: 0;
         width: 100%;
-        background-color: var(--bg-color);
-        padding: 20px;
-        box-shadow: 0 5px 10px rgba(255,255,255,0.1);
+        height: calc(100vh - 80px);
+        background: rgba(0, 0, 0, 0.98);
+        padding: 24px 20px 32px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        z-index: 999;
+        overflow-y: auto;
     }
 
     .main-nav.active {
@@ -611,10 +640,20 @@ img {
     .main-nav ul {
         flex-direction: column;
         text-align: center;
+        gap: 18px;
+    }
+
+    .main-nav a {
+        font-size: 1.15rem;
+        letter-spacing: 1.5px;
     }
 
     .mobile-menu-toggle {
-        display: block;
+        display: inline-flex;
+    }
+
+    body.menu-open {
+        overflow: hidden;
     }
 
     .hero-content h1 {

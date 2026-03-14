@@ -85,7 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (mobileMenuToggle && mainNav) {
         mobileMenuToggle.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
+            const isOpen = mainNav.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active', isOpen);
+            document.body.classList.toggle('menu-open', isOpen);
         });
     }
 
@@ -100,7 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (targetElement) {
                 // Close mobile menu if open
                 mainNav.classList.remove('active');
-                
+                if (mobileMenuToggle) mobileMenuToggle.classList.remove('active');
+                document.body.classList.remove('menu-open');
+
                 const headerOffset = 80;
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
