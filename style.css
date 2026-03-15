@@ -261,7 +261,8 @@ img {
     line-height: 1.6;
 }
 
-#order-online .btn {
+#order-online .btn,
+.location-info .btn {
     border-radius: 999px;
 }
 
