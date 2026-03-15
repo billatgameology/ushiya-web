@@ -292,12 +292,12 @@ img {
 }
 
 #name-meaning {
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
 
 #featured-video {
-    padding-top: 2px;
-    padding-bottom: 4px;
+    padding-top: 0;
+    padding-bottom: 2px;
 }
 
 #menu {
@@ -652,13 +652,13 @@ img {
 
 /* Footer */
 #about {
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 }
 
 .site-footer {
     background-color: #000;
     color: #aaa;
-    padding: 20px 0 20px;
+    padding: 12px 0 16px;
 }
 
 .footer-content {
