@@ -652,13 +652,13 @@ img {
 
 /* Footer */
 #about {
-    padding-bottom: 6px;
+    padding-bottom: 0;
 }
 
 .site-footer {
     background-color: #000;
     color: #aaa;
-    padding: 12px 0 16px;
+    padding: 4px 0 14px;
 }
 
 .footer-content {
