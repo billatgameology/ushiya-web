@@ -291,7 +291,12 @@ img {
     line-height: 1.6;
 }
 
+#name-meaning {
+    padding-bottom: 10px;
+}
+
 #featured-video {
+    padding-top: 2px;
     padding-bottom: 4px;
 }
 
@@ -361,7 +366,7 @@ img {
 }
 
 .name-content p {
-    margin-bottom: 25px;
+    margin-bottom: 14px;
     line-height: 1.8;
     font-size: 1.1rem;
 }
