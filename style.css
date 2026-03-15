@@ -209,10 +209,13 @@ img {
         padding: 10px 0;
     }
 
+    #featured-video,
     #menu,
-    #gallery {
-        padding-top: 20px;
-        padding-bottom: 20px;
+    #gallery,
+    #order-online,
+    #locations {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
