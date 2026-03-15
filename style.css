@@ -663,8 +663,8 @@ img {
 }
 
 .footer-bottom {
-    border-top: 1px solid #333;
-    padding-top: 20px;
+    border-top: none;
+    padding-top: 12px;
     text-align: center;
     font-size: 0.9rem;
 }
