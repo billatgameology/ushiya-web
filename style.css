@@ -646,10 +646,14 @@ img {
 }
 
 /* Footer */
+#about {
+    padding-bottom: 12px;
+}
+
 .site-footer {
     background-color: #000;
     color: #aaa;
-    padding: 60px 0 20px;
+    padding: 20px 0 20px;
 }
 
 .footer-content {
