@@ -291,13 +291,17 @@ img {
     line-height: 1.6;
 }
 
+#featured-video {
+    padding-bottom: 4px;
+}
+
 #menu {
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 12px;
+    padding-bottom: 24px;
 }
 
 #gallery {
-    padding-top: 28px;
+    padding-top: 20px;
 }
 
 #order-online {
@@ -325,7 +329,7 @@ img {
 
 /* Featured Video */
 .featured-video-title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .featured-video-wrapper {
