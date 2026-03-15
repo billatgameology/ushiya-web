@@ -162,7 +162,9 @@ img {
 
 /* Hero */
 .hero {
-    height: 100vh;
+    height: 72vh;
+    min-height: 520px;
+    max-height: 820px;
     background-color: #000; /* Fallback */
     background-image: url('photo/hero op.jpg');
     background-size: cover;
