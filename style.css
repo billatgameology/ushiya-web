@@ -276,11 +276,14 @@ img {
 .featured-video-wrapper {
     max-width: 900px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 .featured-video-player {
     display: block;
     width: 100%;
+    max-width: 420px;
     height: auto;
     border-radius: 10px;
     background-color: #000;
@@ -344,6 +347,7 @@ img {
     }
 
     .featured-video-player {
+        max-width: 100%;
         border-radius: 8px;
     }
 }
