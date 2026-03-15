@@ -296,26 +296,28 @@ img {
 }
 
 #featured-video {
-    padding-top: 0;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #menu {
-    padding-top: 6px;
-    padding-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #gallery {
-    padding-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #order-online {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #locations {
-    padding-top: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #000 !important;
 }
 
