@@ -315,7 +315,7 @@ img {
 .featured-video-player {
     display: block;
     width: 100%;
-    max-width: 273px;
+    max-width: 340px;
     height: auto;
     border-radius: 10px;
     background-color: #000;
