@@ -265,7 +265,15 @@ img {
 
 #order-online {
     padding-top: 8px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+#locations {
+    padding-top: 28px;
+}
+
+#locations .location-wrapper {
+    margin-top: 0;
 }
 
 #order-online .btn,
