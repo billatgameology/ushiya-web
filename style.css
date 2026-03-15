@@ -261,6 +261,10 @@ img {
     line-height: 1.6;
 }
 
+#order-online .btn {
+    border-radius: 999px;
+}
+
 /* Featured Video */
 .featured-video-title {
     margin-bottom: 20px;
