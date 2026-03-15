@@ -208,6 +208,12 @@ img {
     .section-padding-small {
         padding: 18px 0;
     }
+
+    #menu,
+    #gallery {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .hero-content h1 {
@@ -283,6 +289,15 @@ img {
 .location-info .hours p {
     margin-bottom: 10px;
     line-height: 1.6;
+}
+
+#menu {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+#gallery {
+    padding-top: 28px;
 }
 
 #order-online {
