@@ -271,7 +271,7 @@ img {
 
 #locations {
     padding-top: 28px;
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 #locations .location-wrapper {
